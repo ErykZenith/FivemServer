@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-size: 2svw;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #000000;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url('./BebasNeue-Regular.ttf');
+}
+
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-height: 100vh;
+}
+
+video{
+  width: 100vw;
+}
+
+.main{
+  position: absolute;
+  left: 3%;
+  bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  height: 5svw;
+  z-index: 2;
+}
+
+.main p{
+  font-family: "BebasNeue";
+  letter-spacing: .1rem;
+  color: #ffffff;
+}
+
+.boxPercent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .2svw;
+}
+
+.progress-bar{
+  display: flex;
+  align-items: center;
+  width: 4svw;
+  height: .3svw;
+  background-color: #ffffff21;
+}
+
+.progress{
+  height: 100%;
+  background: #FFF;
+}

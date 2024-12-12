@@ -1,0 +1,3 @@
+SetMaxWantedLevel(0)
+DisableIdleCamera(true)
+NetworkSetFriendlyFireOption(true)
